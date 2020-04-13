@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./css/cardPoster.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* .container img{
+  filter: blur(8px);
+  height: 800px;
+  width: 100%;
+} */
+.logo {
+  width: 50px;
+  margin-top: 18px;
+}
+.header{
+  height: 10%;
+
+}
+.header-btn{
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 10px;
+  float: right;
+  margin-top: 15px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+}
+.book-details{
+  /* margin: 3% -0;  */
+  margin-top: 5%;
+
+
+}
+.left-box{
+  color: white;
+}
+.casting img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.left-box h4{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.left-box a{
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 10px;
+  margin-top: 15px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 35px;
+}
+.download-btn{
+  border: 1px solid #fff;
+  background: transparent !important;
+
+}
+.fa{
+  margin:0 5px;
+}
+.book-img{
+  height: 350px;
+  box-shadow: -4px 4px 5px 0 #000;
+}
+.series h3{
+  color: #fff;
+  font-weight: 600;
+}
+.series img{
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: -4px 4px 5px 0 #000;
+  cursor: pointer;
+}
+.series img:hover{
+  transform:translateY(-10px);
+}
